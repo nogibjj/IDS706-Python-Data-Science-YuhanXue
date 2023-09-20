@@ -1,5 +1,7 @@
 import pandas as pd
 from lib import get_mean, get_median, get_stddev, get_distributino_plot
+import os
+import matplotlib.pyplot as plt
 
 
 def generate_stats(df: pd.DataFrame, col: str):
@@ -12,7 +14,10 @@ def generate_stats(df: pd.DataFrame, col: str):
 
 def generate_dist_plots(df: pd.DataFrame, out_dir):
     for c in df.columns:
-        get_distributino_plot(df, c, c, f"{c} Distribution", "./output")
+        get_distributino_plot(df, c, c, f"{c} Distribution")
+        fig_path = os.path.join(out_dir, c + "_distribution.png")
+        plt.savefig(fig_path, dpi=300)
+        plt.close()
 
 
 def main():
