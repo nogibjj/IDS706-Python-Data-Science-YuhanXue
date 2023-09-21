@@ -20,3 +20,6 @@ The diabetes.csv file is from https://www.kaggle.com/datasets/saurabh00007/diabe
 - test_script.py: test the correctness of functions in stats.py
 - test_lib.py: test the correctness of functions in lib.py
 - requirements.txt: Python packages required to support all functions.
+
+### Youtube Link
+Project walkthrough: [https://youtu.be/2NNZL3EivS0](https://youtu.be/2NNZL3EivS0)
