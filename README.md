@@ -5,8 +5,8 @@
 ![lint workflow](https://github.com/nogibjj/IDS706-Python-Data-Science-YuhanXue/actions/workflows/lint.yml/badge.svg)
 ![test workflow](https://github.com/nogibjj/IDS706-Python-Data-Science-YuhanXue/actions/workflows/test.yml/badge.svg)
 
-### Youtube link
-Project walkthrough: [link](link)
+### CSV Source
+The diabetes.csv file is from https://www.kaggle.com/datasets/saurabh00007/diabetescsv
 
 ### Project Overview
 - stats.ipynb: show descriptive statistics on diabetes.csv and plot distributino graphs.
